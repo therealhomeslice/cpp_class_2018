@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-void square(int & left, int & right);
+void square(int & left, int & right); //prototyping
 main()
 {
         cout << "input two integers ";
@@ -13,7 +13,7 @@ main()
         square(one, two);
         cout << "squares are " << one << " and " << two << endl;
 }
-void square(int & left, int & right)
+void square(int & left, int & right) //declaring function
 {
         right *= right;
         left *= left;
